@@ -68,6 +68,15 @@ body, html {
     font-weight: 500;
 }
 
+#dashboard-icon {
+    height: 40px;
+}
+
+.sidebar h2 {
+    font-size: 28px;
+    align-self: center;
+}
+
 .sidebar div {
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -176,7 +185,7 @@ h2, h3 {
     font-weight: bold;
 }
 
-h2 {
+.main-content h2 {
     font-size: 24px;
 }
 
