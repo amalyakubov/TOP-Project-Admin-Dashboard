@@ -190,6 +190,25 @@ h2 {
     gap: 20px;
 }
 
+.cards > div {
+    padding: 20px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30px 1fr 30px;
+}
+
+.icon-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 3;
+    gap: 20px;
+    justify-self: flex-end;
+}
+
+.icon-section img {
+    max-width: 30px;
+}
 
 .vertical-cards {
     display: grid;
@@ -207,6 +226,10 @@ h2 {
 
 .vertical-card-1 div {
     align-self: center;
+}
+
+.vertical-card-1 div p {
+    grid-row: 1;
 }
 
 
