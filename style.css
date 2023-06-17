@@ -190,6 +190,7 @@ h2 {
     gap: 20px;
 }
 
+
 .vertical-cards {
     display: grid;
     grid-template-rows: 2fr 30px 2fr;
@@ -200,18 +201,28 @@ h2 {
 .vertical-card-1 {
     grid-column: 1;
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
-    background-color: antiquewhite;
+    grid-template-rows: 1fr 1px 1fr 1px 1fr;
+    background-color: white;
 }
+
+.vertical-card-1 div {
+    align-self: center;
+}
+
 
 .vertical-card-2 {
     grid-column: 1;
     grid-row: 3;
-    background-color: antiquewhite;
+    background-color: white;
     display: grid;
     grid-template-rows: repeat(4, 1fr);
     align-items: center;
     
+}
+
+.vertical-card-1, .vertical-card-2 {
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .vertical-cards p {
@@ -220,7 +231,7 @@ h2 {
 }
 
 .cards div {
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(255, 255, 255);
 }
 
 #announcements {
