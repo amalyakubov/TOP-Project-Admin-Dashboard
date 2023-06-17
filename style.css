@@ -267,12 +267,17 @@ h2 {
 
 .card-container {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card-container img {
+    align-self: center;
 }
 
 .text-container {
     grid-column: 2;
     grid-row: 1;
+    align-self: center;
 }
 
 #communities {
