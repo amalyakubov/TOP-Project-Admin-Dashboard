@@ -147,6 +147,16 @@ body, html {
     font-weight: bold;
 }
 
+.lower-header button {
+    background-color: #3b82f6;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
 #usertag {
     font-size: 18px;
 }
